@@ -1,16 +1,7 @@
 # home_automation
 
-A new Flutter project.
+This project will automate multiple things at home. Starting with the indoor lighting then potentially moving on to outdoor lighting, access control (gate, doors etc).
 
-## Getting Started
+The mobile app is built in Dart with Flutter. This controls the lights and other periphery items. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Output (actions controlled by the app) input data (data sent to the app) is mainly controlled by an Arduino microcontroller with the relevant sensors.
